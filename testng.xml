@@ -1,0 +1,11 @@
+<suite name="TestSuite">
+<test name="Google TestCases">
+<classes>
+<class name="basicPractice.GoogleTest">
+<methods>
+<include name="testGoogle"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

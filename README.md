@@ -17,5 +17,8 @@
 - Without Assertions , Selenium will only perform actions but will not verify results **Assert.assertEquals(actual,expected)**
 
   ### Types of Assertions
-  **Hard Assertion -** :-stops the test immediately if it fails
-  **Soft Assertion -** :-It does not stop the test if it fails , In other words when an assertion fails , it don't throw an  exception but record the failure calling assertAll() will cause an exception to be thrown if atleast one assertion failed
+  - **Hard Assertion -** :-stops the test immediately if it fails
+  - **Soft Assertion -** :-It does not stop the test if it fails , In other words when an assertion fails , it don't throw an  exception but record the failure calling assertAll() will cause an exception to be thrown if atleast one assertion failed
+ 
+  ### What if We have many test annotations in our program
+  **By default TestNG will sort the methods by alphabetically order , so to make them run like the order we want we can use priority , the lower the priority number it is the one excutes first**

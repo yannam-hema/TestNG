@@ -22,3 +22,18 @@
  
   ### What if We have many test annotations in our program
   **By default TestNG will sort the methods by alphabetically order , so to make them run like the order we want we can use priority , the lower the priority number it is the one excutes first**
+
+## Annotations
+**Annotation is a form of metadata that can be added to the java source code**
+**In TestNG Annotations control the test Execution flow**
+- @BeforeSuite = Before entire test suite
+- @BeforeTest = Before <test> in XML
+- @BeforeClass = Before first Test in class (Related tests)
+- @BeforeMethod = Before every @Test (Independent Tests)
+- @Test = Actual test case
+- @AfterMethod = After every @Test
+- @AfterClass = After all tests in class
+- @AfterTest = After <test> in XML
+- @AfterSuite = After entire suite
+  
+  

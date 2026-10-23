@@ -1,4 +1,4 @@
-# TestNG
+# TestNG - Test Next Generation
 **It is testing framework for java used**
 - Write and run test cases
 - Group Testcases
